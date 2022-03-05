@@ -19,6 +19,7 @@ COPY . .
 
 # Expose port and start application
 EXPOSE 8080
+
 CMD [ "npm", "start" ]
 
 ## Part-2: Create Docker-compose yaml file
